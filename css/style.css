@@ -66,3 +66,43 @@ header {
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
 }
+
+.poke__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap:50px
+
+}
+.poke__card{
+  width: 200px;
+  height: auto;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid gray;
+  background-color: white;
+  list-style: none;
+}
+.poke__card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+
+}
+
+.poke__sprite{
+  width: 80%;
+  height: 80%;
+  position: relative;
+  bottom:25%;
+}
+.poke__name{
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+
+  }
